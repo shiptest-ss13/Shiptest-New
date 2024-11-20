@@ -18,7 +18,7 @@
 
 	///The docking port of the linked shuttle. To add a port after creating a controlled ship datum, use [/datum/overmap/ship/controlled/proc/connect_new_shuttle_port].
 	VAR_FINAL/obj/docking_port/mobile/shuttle_port
-	///The map template the shuttle was spawned from, if it was indeed created from a template. 
+	///The map template the shuttle was spawned from, if it was indeed created from a template.
 	var/datum/map_template/shuttle/source_template
 	///Whether objects on the ship require an ID with ship access granted
 	var/unique_ship_access = FALSE
